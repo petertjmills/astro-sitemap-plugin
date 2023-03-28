@@ -21,9 +21,9 @@ export default defineConfig({
 	integrations: [
 		...,
 		sitemap({
-			outputManifest: false, #This is for debugging purposes, leave it false.
-			slug: "[...slug]", #This is the name of your dynamic route(s)
-			mapping: { #This maps the dynamic route to a content collection
+			outputManifest: false, //This is for debugging purposes, leave it false.
+			slug: "[...slug]", //This is the name of your dynamic route(s)
+			mapping: { //This maps the dynamic route to a content collection
 				"/[...slug]": "/content/main", 
 				"/news/[...slug]": "/content/news", 
 			},
