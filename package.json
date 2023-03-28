@@ -1,5 +1,5 @@
 {
-  "name": "astro-sitemap-plugin",
+  "name": "astro-ssr-sitemap",
   "version": "0.1.0",
   "description": "A (likely broken) sitemap plugin for SSR astro sites that have content collections",
   "main": "index.js",
